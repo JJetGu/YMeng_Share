@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F94065A61B48CA53000C3EDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F94065A51B48CA53000C3EDD /* main.m */; };
+		F94065AF1B48CA53000C3EDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F94065AD1B48CA53000C3EDD /* Main.storyboard */; };
+		F94065B11B48CA53000C3EDD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F94065B01B48CA53000C3EDD /* Images.xcassets */; };
+		F94065B41B48CA53000C3EDD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F94065B21B48CA53000C3EDD /* LaunchScreen.xib */; };
+		F94065C01B48CA53000C3EDD /* YMeng_ShareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F94065BF1B48CA53000C3EDD /* YMeng_ShareTests.m */; };
+		F94065D11B48CBE0000C3EDD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F94065CC1B48CBE0000C3EDD /* ViewController.m */; };
+		F94065D21B48CBE0000C3EDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F94065D01B48CBE0000C3EDD /* AppDelegate.m */; };
+		F94065F01B48CEDC000C3EDD /* UMSocialLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F94065D51B48CEDC000C3EDD /* UMSocialLocalizable.strings */; };
+		F94065F11B48CEDC000C3EDD /* libUMSocial_Sdk_4.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F94065E31B48CEDC000C3EDD /* libUMSocial_Sdk_4.2.a */; };
+		F94065F21B48CEDC000C3EDD /* libUMSocial_Sdk_Comment_4.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F94065E41B48CEDC000C3EDD /* libUMSocial_Sdk_Comment_4.2.a */; };
+		F94065F31B48CEDC000C3EDD /* UMSCommentDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F94065E61B48CEDC000C3EDD /* UMSCommentDetailController.xib */; };
+		F94065F41B48CEDC000C3EDD /* UMSCommentInputController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F94065E71B48CEDC000C3EDD /* UMSCommentInputController.xib */; };
+		F94065F51B48CEDC000C3EDD /* UMSCommentInputControlleriPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F94065E81B48CEDC000C3EDD /* UMSCommentInputControlleriPad.xib */; };
+		F94065F61B48CEDC000C3EDD /* UMShareEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F94065E91B48CEDC000C3EDD /* UMShareEditViewController.xib */; };
+		F94065F71B48CEDC000C3EDD /* UMShareEditViewControlleriPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F94065EA1B48CEDC000C3EDD /* UMShareEditViewControlleriPad.xib */; };
+		F94065F81B48CEDC000C3EDD /* UMSLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F94065EB1B48CEDC000C3EDD /* UMSLoginViewController.xib */; };
+		F94065F91B48CEDC000C3EDD /* UMSnsAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F94065EC1B48CEDC000C3EDD /* UMSnsAccountViewController.xib */; };
+		F94065FA1B48CEDC000C3EDD /* UMSShareListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F94065ED1B48CEDC000C3EDD /* UMSShareListController.xib */; };
+		F94065FB1B48CEDC000C3EDD /* UMSocialSDKResourcesNew.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F94065EE1B48CEDC000C3EDD /* UMSocialSDKResourcesNew.bundle */; };
+		F94066041B48D38B000C3EDD /* libSocialSina.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F94066021B48D38B000C3EDD /* libSocialSina.a */; };
+		F94066081B48DBFA000C3EDD /* QQ20150705-2.png in Resources */ = {isa = PBXBuildFile; fileRef = F94066061B48DBFA000C3EDD /* QQ20150705-2.png */; };
+		F94066091B48DBFA000C3EDD /* QQ20150705-1.png in Resources */ = {isa = PBXBuildFile; fileRef = F94066071B48DBFA000C3EDD /* QQ20150705-1.png */; };
+		F940660D1B48E0BB000C3EDD /* QQ20150705-3.png in Resources */ = {isa = PBXBuildFile; fileRef = F940660C1B48E0BB000C3EDD /* QQ20150705-3.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F94065BA1B48CA53000C3EDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F94065981B48CA52000C3EDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F940659F1B48CA52000C3EDD;
+			remoteInfo = YMeng_Share;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F94065A01B48CA52000C3EDD /* YMeng_Share.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YMeng_Share.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F94065A41B48CA53000C3EDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F94065A51B48CA53000C3EDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F94065AE1B48CA53000C3EDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F94065B01B48CA53000C3EDD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F94065B31B48CA53000C3EDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F94065B91B48CA53000C3EDD /* YMeng_ShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMeng_ShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F94065BE1B48CA53000C3EDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F94065BF1B48CA53000C3EDD /* YMeng_ShareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMeng_ShareTests.m; sourceTree = "<group>"; };
+		F94065CB1B48CBE0000C3EDD /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F94065CC1B48CBE0000C3EDD /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F94065CF1B48CBE0000C3EDD /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F94065D01B48CBE0000C3EDD /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F94065D61B48CEDC000C3EDD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/UMSocialLocalizable.strings; sourceTree = "<group>"; };
+		F94065D81B48CEDC000C3EDD /* UMSocial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocial.h; sourceTree = "<group>"; };
+		F94065D91B48CEDC000C3EDD /* UMSocialAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialAccountManager.h; sourceTree = "<group>"; };
+		F94065DA1B48CEDC000C3EDD /* UMSocialBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialBar.h; sourceTree = "<group>"; };
+		F94065DB1B48CEDC000C3EDD /* UMSocialConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialConfig.h; sourceTree = "<group>"; };
+		F94065DC1B48CEDC000C3EDD /* UMSocialControllerService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialControllerService.h; sourceTree = "<group>"; };
+		F94065DD1B48CEDC000C3EDD /* UMSocialControllerServiceComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialControllerServiceComment.h; sourceTree = "<group>"; };
+		F94065DE1B48CEDC000C3EDD /* UMSocialData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialData.h; sourceTree = "<group>"; };
+		F94065DF1B48CEDC000C3EDD /* UMSocialDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialDataService.h; sourceTree = "<group>"; };
+		F94065E01B48CEDC000C3EDD /* UMSocialSnsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSnsData.h; sourceTree = "<group>"; };
+		F94065E11B48CEDC000C3EDD /* UMSocialSnsPlatformManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSnsPlatformManager.h; sourceTree = "<group>"; };
+		F94065E21B48CEDC000C3EDD /* UMSocialSnsService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSnsService.h; sourceTree = "<group>"; };
+		F94065E31B48CEDC000C3EDD /* libUMSocial_Sdk_4.2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMSocial_Sdk_4.2.a; sourceTree = "<group>"; };
+		F94065E41B48CEDC000C3EDD /* libUMSocial_Sdk_Comment_4.2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMSocial_Sdk_Comment_4.2.a; sourceTree = "<group>"; };
+		F94065E61B48CEDC000C3EDD /* UMSCommentDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSCommentDetailController.xib; sourceTree = "<group>"; };
+		F94065E71B48CEDC000C3EDD /* UMSCommentInputController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSCommentInputController.xib; sourceTree = "<group>"; };
+		F94065E81B48CEDC000C3EDD /* UMSCommentInputControlleriPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSCommentInputControlleriPad.xib; sourceTree = "<group>"; };
+		F94065E91B48CEDC000C3EDD /* UMShareEditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMShareEditViewController.xib; sourceTree = "<group>"; };
+		F94065EA1B48CEDC000C3EDD /* UMShareEditViewControlleriPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMShareEditViewControlleriPad.xib; sourceTree = "<group>"; };
+		F94065EB1B48CEDC000C3EDD /* UMSLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSLoginViewController.xib; sourceTree = "<group>"; };
+		F94065EC1B48CEDC000C3EDD /* UMSnsAccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSnsAccountViewController.xib; sourceTree = "<group>"; };
+		F94065ED1B48CEDC000C3EDD /* UMSShareListController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSShareListController.xib; sourceTree = "<group>"; };
+		F94065EE1B48CEDC000C3EDD /* UMSocialSDKResourcesNew.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKResourcesNew.bundle; sourceTree = "<group>"; };
+		F94065EF1B48CEDC000C3EDD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/UMSocialLocalizable.strings"; sourceTree = "<group>"; };
+		F94066021B48D38B000C3EDD /* libSocialSina.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialSina.a; sourceTree = "<group>"; };
+		F94066031B48D38B000C3EDD /* UMSocialSinaHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSinaHandler.h; sourceTree = "<group>"; };
+		F94066061B48DBFA000C3EDD /* QQ20150705-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QQ20150705-2.png"; sourceTree = "<group>"; };
+		F94066071B48DBFA000C3EDD /* QQ20150705-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QQ20150705-1.png"; sourceTree = "<group>"; };
+		F940660C1B48E0BB000C3EDD /* QQ20150705-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QQ20150705-3.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F940659D1B48CA52000C3EDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F94065F21B48CEDC000C3EDD /* libUMSocial_Sdk_Comment_4.2.a in Frameworks */,
+				F94065F11B48CEDC000C3EDD /* libUMSocial_Sdk_4.2.a in Frameworks */,
+				F94066041B48D38B000C3EDD /* libSocialSina.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F94065B61B48CA53000C3EDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F94065971B48CA52000C3EDD = {
+			isa = PBXGroup;
+			children = (
+				F94065A21B48CA52000C3EDD /* YMeng_Share */,
+				F94065BC1B48CA53000C3EDD /* YMeng_ShareTests */,
+				F94065A11B48CA52000C3EDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F94065A11B48CA52000C3EDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F94065A01B48CA52000C3EDD /* YMeng_Share.app */,
+				F94065B91B48CA53000C3EDD /* YMeng_ShareTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F94065A21B48CA52000C3EDD /* YMeng_Share */ = {
+			isa = PBXGroup;
+			children = (
+				F94065C91B48CBE0000C3EDD /* Classes */,
+				F94065A31B48CA52000C3EDD /* Supporting Files */,
+			);
+			path = YMeng_Share;
+			sourceTree = "<group>";
+		};
+		F94065A31B48CA52000C3EDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F94066051B48DB67000C3EDD /* ScreenShot */,
+				F94065AD1B48CA53000C3EDD /* Main.storyboard */,
+				F94065B01B48CA53000C3EDD /* Images.xcassets */,
+				F94065B21B48CA53000C3EDD /* LaunchScreen.xib */,
+				F94065A41B48CA53000C3EDD /* Info.plist */,
+				F94065A51B48CA53000C3EDD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F94065BC1B48CA53000C3EDD /* YMeng_ShareTests */ = {
+			isa = PBXGroup;
+			children = (
+				F94065BF1B48CA53000C3EDD /* YMeng_ShareTests.m */,
+				F94065BD1B48CA53000C3EDD /* Supporting Files */,
+			);
+			path = YMeng_ShareTests;
+			sourceTree = "<group>";
+		};
+		F94065BD1B48CA53000C3EDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F94065BE1B48CA53000C3EDD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F94065C91B48CBE0000C3EDD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F94065CA1B48CBE0000C3EDD /* Controller */,
+				F94065CD1B48CBE0000C3EDD /* Lib */,
+				F94065CE1B48CBE0000C3EDD /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F94065CA1B48CBE0000C3EDD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F94065CB1B48CBE0000C3EDD /* ViewController.h */,
+				F94065CC1B48CBE0000C3EDD /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F94065CD1B48CBE0000C3EDD /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				F94065D31B48CBFD000C3EDD /* YMengShareSDK */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		F94065CE1B48CBE0000C3EDD /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				F94065CF1B48CBE0000C3EDD /* AppDelegate.h */,
+				F94065D01B48CBE0000C3EDD /* AppDelegate.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		F94065D31B48CBFD000C3EDD /* YMengShareSDK */ = {
+			isa = PBXGroup;
+			children = (
+				F94066001B48D38B000C3EDD /* SSO */,
+				F94065D41B48CEDC000C3EDD /* UMSocial_Sdk_4.2 */,
+			);
+			path = YMengShareSDK;
+			sourceTree = "<group>";
+		};
+		F94065D41B48CEDC000C3EDD /* UMSocial_Sdk_4.2 */ = {
+			isa = PBXGroup;
+			children = (
+				F94065D51B48CEDC000C3EDD /* UMSocialLocalizable.strings */,
+				F94065D71B48CEDC000C3EDD /* Header */,
+				F94065E31B48CEDC000C3EDD /* libUMSocial_Sdk_4.2.a */,
+				F94065E41B48CEDC000C3EDD /* libUMSocial_Sdk_Comment_4.2.a */,
+				F94065E51B48CEDC000C3EDD /* SocialSDKXib */,
+				F94065EE1B48CEDC000C3EDD /* UMSocialSDKResourcesNew.bundle */,
+			);
+			path = UMSocial_Sdk_4.2;
+			sourceTree = "<group>";
+		};
+		F94065D71B48CEDC000C3EDD /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				F94065D81B48CEDC000C3EDD /* UMSocial.h */,
+				F94065D91B48CEDC000C3EDD /* UMSocialAccountManager.h */,
+				F94065DA1B48CEDC000C3EDD /* UMSocialBar.h */,
+				F94065DB1B48CEDC000C3EDD /* UMSocialConfig.h */,
+				F94065DC1B48CEDC000C3EDD /* UMSocialControllerService.h */,
+				F94065DD1B48CEDC000C3EDD /* UMSocialControllerServiceComment.h */,
+				F94065DE1B48CEDC000C3EDD /* UMSocialData.h */,
+				F94065DF1B48CEDC000C3EDD /* UMSocialDataService.h */,
+				F94065E01B48CEDC000C3EDD /* UMSocialSnsData.h */,
+				F94065E11B48CEDC000C3EDD /* UMSocialSnsPlatformManager.h */,
+				F94065E21B48CEDC000C3EDD /* UMSocialSnsService.h */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		F94065E51B48CEDC000C3EDD /* SocialSDKXib */ = {
+			isa = PBXGroup;
+			children = (
+				F94065E61B48CEDC000C3EDD /* UMSCommentDetailController.xib */,
+				F94065E71B48CEDC000C3EDD /* UMSCommentInputController.xib */,
+				F94065E81B48CEDC000C3EDD /* UMSCommentInputControlleriPad.xib */,
+				F94065E91B48CEDC000C3EDD /* UMShareEditViewController.xib */,
+				F94065EA1B48CEDC000C3EDD /* UMShareEditViewControlleriPad.xib */,
+				F94065EB1B48CEDC000C3EDD /* UMSLoginViewController.xib */,
+				F94065EC1B48CEDC000C3EDD /* UMSnsAccountViewController.xib */,
+				F94065ED1B48CEDC000C3EDD /* UMSShareListController.xib */,
+			);
+			path = SocialSDKXib;
+			sourceTree = "<group>";
+		};
+		F94066001B48D38B000C3EDD /* SSO */ = {
+			isa = PBXGroup;
+			children = (
+				F94066011B48D38B000C3EDD /* Sina */,
+			);
+			path = SSO;
+			sourceTree = "<group>";
+		};
+		F94066011B48D38B000C3EDD /* Sina */ = {
+			isa = PBXGroup;
+			children = (
+				F94066021B48D38B000C3EDD /* libSocialSina.a */,
+				F94066031B48D38B000C3EDD /* UMSocialSinaHandler.h */,
+			);
+			path = Sina;
+			sourceTree = "<group>";
+		};
+		F94066051B48DB67000C3EDD /* ScreenShot */ = {
+			isa = PBXGroup;
+			children = (
+				F940660C1B48E0BB000C3EDD /* QQ20150705-3.png */,
+				F94066061B48DBFA000C3EDD /* QQ20150705-2.png */,
+				F94066071B48DBFA000C3EDD /* QQ20150705-1.png */,
+			);
+			path = ScreenShot;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F940659F1B48CA52000C3EDD /* YMeng_Share */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F94065C31B48CA53000C3EDD /* Build configuration list for PBXNativeTarget "YMeng_Share" */;
+			buildPhases = (
+				F940659C1B48CA52000C3EDD /* Sources */,
+				F940659D1B48CA52000C3EDD /* Frameworks */,
+				F940659E1B48CA52000C3EDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YMeng_Share;
+			productName = YMeng_Share;
+			productReference = F94065A01B48CA52000C3EDD /* YMeng_Share.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F94065B81B48CA53000C3EDD /* YMeng_ShareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F94065C61B48CA53000C3EDD /* Build configuration list for PBXNativeTarget "YMeng_ShareTests" */;
+			buildPhases = (
+				F94065B51B48CA53000C3EDD /* Sources */,
+				F94065B61B48CA53000C3EDD /* Frameworks */,
+				F94065B71B48CA53000C3EDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F94065BB1B48CA53000C3EDD /* PBXTargetDependency */,
+			);
+			name = YMeng_ShareTests;
+			productName = YMeng_ShareTests;
+			productReference = F94065B91B48CA53000C3EDD /* YMeng_ShareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F94065981B48CA52000C3EDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = JJetGu;
+				TargetAttributes = {
+					F940659F1B48CA52000C3EDD = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					F94065B81B48CA53000C3EDD = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = F940659F1B48CA52000C3EDD;
+					};
+				};
+			};
+			buildConfigurationList = F940659B1B48CA52000C3EDD /* Build configuration list for PBXProject "YMeng_Share" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = F94065971B48CA52000C3EDD;
+			productRefGroup = F94065A11B48CA52000C3EDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F940659F1B48CA52000C3EDD /* YMeng_Share */,
+				F94065B81B48CA53000C3EDD /* YMeng_ShareTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F940659E1B48CA52000C3EDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F94065F61B48CEDC000C3EDD /* UMShareEditViewController.xib in Resources */,
+				F94065F41B48CEDC000C3EDD /* UMSCommentInputController.xib in Resources */,
+				F94066081B48DBFA000C3EDD /* QQ20150705-2.png in Resources */,
+				F94065AF1B48CA53000C3EDD /* Main.storyboard in Resources */,
+				F94065F31B48CEDC000C3EDD /* UMSCommentDetailController.xib in Resources */,
+				F94065F81B48CEDC000C3EDD /* UMSLoginViewController.xib in Resources */,
+				F94065F51B48CEDC000C3EDD /* UMSCommentInputControlleriPad.xib in Resources */,
+				F94065F71B48CEDC000C3EDD /* UMShareEditViewControlleriPad.xib in Resources */,
+				F94065B41B48CA53000C3EDD /* LaunchScreen.xib in Resources */,
+				F940660D1B48E0BB000C3EDD /* QQ20150705-3.png in Resources */,
+				F94065F01B48CEDC000C3EDD /* UMSocialLocalizable.strings in Resources */,
+				F94065B11B48CA53000C3EDD /* Images.xcassets in Resources */,
+				F94065F91B48CEDC000C3EDD /* UMSnsAccountViewController.xib in Resources */,
+				F94065FA1B48CEDC000C3EDD /* UMSShareListController.xib in Resources */,
+				F94065FB1B48CEDC000C3EDD /* UMSocialSDKResourcesNew.bundle in Resources */,
+				F94066091B48DBFA000C3EDD /* QQ20150705-1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F94065B71B48CA53000C3EDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F940659C1B48CA52000C3EDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F94065D11B48CBE0000C3EDD /* ViewController.m in Sources */,
+				F94065A61B48CA53000C3EDD /* main.m in Sources */,
+				F94065D21B48CBE0000C3EDD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F94065B51B48CA53000C3EDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F94065C01B48CA53000C3EDD /* YMeng_ShareTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F94065BB1B48CA53000C3EDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F940659F1B48CA52000C3EDD /* YMeng_Share */;
+			targetProxy = F94065BA1B48CA53000C3EDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F94065AD1B48CA53000C3EDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F94065AE1B48CA53000C3EDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F94065B21B48CA53000C3EDD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F94065B31B48CA53000C3EDD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		F94065D51B48CEDC000C3EDD /* UMSocialLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F94065D61B48CEDC000C3EDD /* en */,
+				F94065EF1B48CEDC000C3EDD /* zh-Hans */,
+			);
+			name = UMSocialLocalizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F94065C11B48CA53000C3EDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F94065C21B48CA53000C3EDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F94065C41B48CA53000C3EDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YMeng_Share/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YMeng_Share/Classes/Lib/YMengShareSDK/UMSocial_Sdk_4.2",
+					"$(PROJECT_DIR)/YMeng_Share/Classes/Lib/YMengShareSDK/Sina",
+					"$(PROJECT_DIR)/YMeng_Share/Classes/Lib/YMengShareSDK/SSO/Sina",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F94065C51B48CA53000C3EDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YMeng_Share/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YMeng_Share/Classes/Lib/YMengShareSDK/UMSocial_Sdk_4.2",
+					"$(PROJECT_DIR)/YMeng_Share/Classes/Lib/YMengShareSDK/Sina",
+					"$(PROJECT_DIR)/YMeng_Share/Classes/Lib/YMengShareSDK/SSO/Sina",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F94065C71B48CA53000C3EDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YMeng_ShareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YMeng_Share.app/YMeng_Share";
+			};
+			name = Debug;
+		};
+		F94065C81B48CA53000C3EDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YMeng_ShareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YMeng_Share.app/YMeng_Share";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F940659B1B48CA52000C3EDD /* Build configuration list for PBXProject "YMeng_Share" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F94065C11B48CA53000C3EDD /* Debug */,
+				F94065C21B48CA53000C3EDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F94065C31B48CA53000C3EDD /* Build configuration list for PBXNativeTarget "YMeng_Share" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F94065C41B48CA53000C3EDD /* Debug */,
+				F94065C51B48CA53000C3EDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F94065C61B48CA53000C3EDD /* Build configuration list for PBXNativeTarget "YMeng_ShareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F94065C71B48CA53000C3EDD /* Debug */,
+				F94065C81B48CA53000C3EDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F94065981B48CA52000C3EDD /* Project object */;
+}
